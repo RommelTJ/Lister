@@ -783,6 +783,9 @@
 		3EFC7D9D18FB08C90012B60F /* NSColor+AppSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+AppSpecific.swift"; sourceTree = "<group>"; };
 		3EFC7D9E18FB08C90012B60F /* ResizingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizingTextField.swift; sourceTree = "<group>"; };
 		55BB61D41A13C7C3001BE161 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		775047951BD6A2BC00B9A7C6 /* Lister WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Lister WatchKit App.entitlements"; path = "Lister WatchKit App/Lister WatchKit App.entitlements"; sourceTree = "<group>"; };
+		775047961BD6A2F500B9A7C6 /* Lister Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Lister Watch Extension.entitlements"; path = "Lister Watch Extension/Lister Watch Extension.entitlements"; sourceTree = "<group>"; };
+		775047971BD6A32800B9A7C6 /* Lister Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Lister Watch App.entitlements"; path = "Lister Watch App/Lister Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1112,6 +1115,7 @@
 		16CBDA9E18F6EE3A00233D3C = {
 			isa = PBXGroup;
 			children = (
+				775047961BD6A2F500B9A7C6 /* Lister Watch Extension.entitlements */,
 				16BB13ED1B82AFCE006E0F7C /* README.md */,
 				16CBDAA918F6EE3A00233D3C /* Lister iOS App */,
 				55EEFA841A1A5C9A00172D58 /* Lister WatchKit App */,
@@ -1190,6 +1194,7 @@
 		16CD56061B127D8300DB4F4F /* Lister Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				775047971BD6A32800B9A7C6 /* Lister Watch App.entitlements */,
 				16CD55F11B127D2400DB4F4F /* Lister Watch Extension */,
 				16CD55E21B127D2400DB4F4F /* Lister Watch App */,
 				16CD560D1B127DDC00DB4F4F /* ListerKit Framework (watchOS) */,
@@ -1765,6 +1770,7 @@
 		55EEFA841A1A5C9A00172D58 /* Lister WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				775047951BD6A2BC00B9A7C6 /* Lister WatchKit App.entitlements */,
 				16F60BF21A854A640028B2D8 /* Lister WatchKit Extension */,
 				16F60C011A854A650028B2D8 /* Lister WatchKit App */,
 			);
@@ -2098,6 +2104,7 @@
 					};
 					16A9851B1936EEA5007B7F37 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4L2V3AB2J2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2108,6 +2115,7 @@
 						};
 					};
 					16CBDAA618F6EE3A00233D3C = {
+						DevelopmentTeam = 4L2V3AB2J2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2119,18 +2127,35 @@
 					};
 					16CD55E01B127D2400DB4F4F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4L2V3AB2J2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					16CD55EC1B127D2400DB4F4F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4L2V3AB2J2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					16CD560B1B127DDC00DB4F4F = {
 						CreatedOnToolsVersion = 7.0;
 					};
 					16EE5953192016410052916A = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4L2V3AB2J2;
 					};
 					16F60BF01A854A640028B2D8 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4L2V3AB2J2;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 1;
@@ -2139,6 +2164,12 @@
 					};
 					16F60BFC1A854A650028B2D8 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4L2V3AB2J2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3E251756197F7A0400B8AF96 = {
 						CreatedOnToolsVersion = 6.0;
@@ -2147,8 +2178,17 @@
 					3E251766197F7A1400B8AF96 = {
 						CreatedOnToolsVersion = 6.0;
 					};
+					3E497FC518FAFA2400B32837 = {
+						DevelopmentTeam = 4L2V3AB2J2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+						};
+					};
 					3E93585D1920343C0091408E = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4L2V3AB2J2;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 1;
@@ -2157,6 +2197,7 @@
 					};
 					3E93587C1920355C0091408E = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4L2V3AB2J2;
 					};
 				};
 			};
@@ -2916,7 +2957,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LISTER_BUNDLE_PREFIX = "com.example.apple-samplecode";
+				LISTER_BUNDLE_PREFIX = edu.sandiego.lister;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2952,7 +2993,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LISTER_BUNDLE_PREFIX = "com.example.apple-samplecode";
+				LISTER_BUNDLE_PREFIX = edu.sandiego.lister;
 				SDKROOT = iphoneos;
 				TOOLCHAINS = default;
 				VALIDATE_PRODUCT = YES;
@@ -2999,6 +3040,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lister Watch App/Lister Watch App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
@@ -3022,6 +3064,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lister Watch App/Lister Watch App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
@@ -3043,6 +3086,7 @@
 		16CD56001B127D2500DB4F4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Lister Watch Extension/Lister Watch Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
@@ -3056,6 +3100,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "${LISTER_BUNDLE_PREFIX}.Lister.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -3065,6 +3110,7 @@
 		16CD56011B127D2500DB4F4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Lister Watch Extension/Lister Watch Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
@@ -3077,6 +3123,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "${LISTER_BUNDLE_PREFIX}.Lister.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -3205,7 +3252,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lister WatchKit App/Lister WatchKit App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -3217,6 +3266,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "${LISTER_BUNDLE_PREFIX}.Lister.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -3227,7 +3277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lister WatchKit App/Lister WatchKit App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IBSC_MODULE = Lister_WatchKit_Extension;
@@ -3236,6 +3288,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "${LISTER_BUNDLE_PREFIX}.Lister.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -3374,7 +3427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ListerOSX/ListerOSX.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -3398,7 +3451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ListerOSX/ListerOSX.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -3419,7 +3472,7 @@
 			buildSettings = {
 				CLANG_WARN_ASSIGN_ENUM = NO;
 				CODE_SIGN_ENTITLEMENTS = ListerTodayOSX/ListerTodayOSX.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -3443,7 +3496,7 @@
 			buildSettings = {
 				CLANG_WARN_ASSIGN_ENUM = NO;
 				CODE_SIGN_ENTITLEMENTS = ListerTodayOSX/ListerTodayOSX.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -3465,6 +3518,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_WARN_ASSIGN_ENUM = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -3496,6 +3550,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_WARN_ASSIGN_ENUM = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
